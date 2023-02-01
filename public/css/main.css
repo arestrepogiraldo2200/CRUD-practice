@@ -1,0 +1,30 @@
+
+.mainpage{
+    background-color: burlywood;
+    text-align: center;
+    padding: 20px;
+}
+
+.title{
+    text-align: center;
+    text-decoration: double;
+    color: brown;
+    margin: 20px;      
+
+}
+
+.button_container{  
+    margin: 20px;      
+}
+
+.blist{
+    background-color: cadetblue;
+    color: black;
+    border-radius: 10%;
+    height: 20px;
+}
+
+.blist:hover{
+    background-color: brown;
+    color: white;
+}

@@ -1,0 +1,57 @@
+
+.animal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding:10px;
+}
+
+.animalimage > img{
+    border: 5px solid brown;
+    width: 300px;
+}
+
+.animalinfo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+    width: 40%;
+}
+
+.commonname{
+    color: brown;
+}
+
+.scientificname{
+    color: rgb(174, 174, 174);
+    font-style: italic;
+}
+
+.editbuttons{
+    text-align: center;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.updatebutton, .deletebutton, .backbutton{
+background-color: cadetblue;
+color: black;
+border-radius: 10%;
+height: 20px;
+}
+
+.updatebutton:hover, .deletebutton:hover, .backbutton:hover{
+    background-color: brown;
+    color: white;
+}
+
+

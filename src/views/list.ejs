@@ -1,0 +1,25 @@
+<%- include('partials/header.ejs') %>
+
+<% for (let i = 0; i < array.length; i++) { %>
+
+    <article class = "animal">
+        <div class = "animalimage">
+            <img src="<%= array[i].image %>" alt="">
+        </div>
+        <div class = "animalinfo">
+            <h3 class = "commonname"><%= array[i].name %></h3>       
+            <a href="/detail/<%= array[i].id %>"><button class = "detailsbutton">See details</button></a>
+        </div>
+    </article>
+
+<% } %>
+
+    <div class = "home">
+        <a href="/"><i class="fa-solid fa-house fa-3x" id = "house"></i></a>
+    </div>
+
+    <div class = "addnew">
+        <a href="/add"><button class="addbutton">Add an animal</button></a>
+    </div>
+
+<%- include('partials/footer.ejs') %>

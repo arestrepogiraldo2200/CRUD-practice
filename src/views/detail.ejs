@@ -1,0 +1,25 @@
+<%- include('partials/header.ejs') %>
+
+<article class = "animal">
+
+    <div class = "animalimage">
+        <img src="<%= animal.image %>" alt="">
+    </div>
+
+    <div class = "animalinfo">
+        <h3 class = "commonname"><%= animal.name %></h3>    
+        <p class = "scientificname"><%= animal.scientific_name %></p>  
+        <p class = "information"><%= animal.data %></p> 
+    </div>
+
+</article>
+
+<div class = "editbuttons">
+    
+    <a href=""><button class = "updatebutton">Update</button></a>
+    <a href=""><button class = "deletebutton">Delete</button></a>
+    <a href="/list"><button class = "backbutton">Go back</button></a>
+
+</div>
+
+<%- include('partials/footer.ejs') %>

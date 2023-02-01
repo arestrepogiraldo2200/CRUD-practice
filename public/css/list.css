@@ -1,0 +1,66 @@
+
+.animal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.animalimage > img{
+    border: 5px solid brown;
+    width: 300px;
+}
+
+.animalinfo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.commonname{
+    color: brown;
+}
+
+.detailsbutton{
+    background-color: cadetblue;
+    color: black;
+    border-radius: 10%;
+    height: 20px;
+}
+
+.detailsbutton:hover{
+    background-color: brown;
+    color: white;
+}
+
+.home{
+    text-align: center;
+    margin: 20px
+}
+
+#house{
+    color: cadetblue;
+}
+
+#house:hover{
+    color: brown;
+}
+
+.addnew{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.addbutton{
+    background-color: cadetblue;
+    color: black;
+    border-radius: 10%;
+    height: 20px;
+}
+
+.addbutton:hover{
+    background-color: brown;
+    color: white;
+}

@@ -1,6 +1,21 @@
 <%- include('partials/header.ejs') %>
 
+<div class = "addanimal">
 
+    <h1 class = "addtitle">Add an animal</h1>
 
+    <form method="POST" action="/add" class = "formadd">
+
+        <input type="text" name="animalcommonname" id="animalcommonname" placeholder="Animal common name" required>
+        <input type="text" name="animalscientificname" id="animalscientificname" placeholder="Animal scientific name" required>
+        <input type="text" name="animaldata" id="animaldata" placeholder="Animal data" required>
+        <input type="text" name="animalimagelink" id="animalimagelink" placeholder="Animal picture link" required>
+        <input type="submit" value="Submit" class="buttonform">
+        <input type="reset" value="Reset" class="buttonform">
+    </form>
+
+    <a href="/list"><button class="buttonformback">Go back</button></a>
+
+</div>
 
 <%- include('partials/footer.ejs') %>

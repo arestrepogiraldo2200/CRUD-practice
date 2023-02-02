@@ -1,7 +1,8 @@
 <%- include('partials/header.ejs') %>
 
 <% for (let i = 0; i < array.length; i++) { %>
-
+<main>
+    
     <article class = "animal">
         <div class = "animalimage">
             <img src="<%= array[i].image %>" alt="">
@@ -22,4 +23,5 @@
         <a href="/add"><button class="addbutton">Add an animal</button></a>
     </div>
 
+</main>
 <%- include('partials/footer.ejs') %>

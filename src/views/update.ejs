@@ -1,0 +1,20 @@
+<%- include('partials/header.ejs') %>
+
+<div class = "updateanimal">
+
+    <h1 class = "updatetitle">Update <%= animaltoupdate.name%></h1>
+
+    <form method="POST" action="/update/<%= animaltoupdate.id%>?_method=PUT" class = "formupdate">
+
+        <input type="text" name="animalcommonname" id="animalcommonname" value="<%= animaltoupdate.name%>">
+        <input type="text" name="animalscientificname" id="animalscientificname" value="<%= animaltoupdate.scientific_name%>">
+        <input type="text" name="animaldata" id="animaldata" value="<%= animaltoupdate.data%>">
+        <input type="text" name="animalimagelink" id="animalimagelink" value="<%= animaltoupdate.image%>">
+        <input type="submit" value="Submit" class="buttonform">
+    </form>
+
+    <a href="/detail/<%= animaltoupdate.id%>"><button class="buttonformback">Go back</button></a>
+
+</div>
+
+<%- include('partials/footer.ejs') %>

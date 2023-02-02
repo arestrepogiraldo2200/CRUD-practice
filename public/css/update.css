@@ -1,0 +1,51 @@
+
+.updateanimal{
+    padding: 20px;
+    text-align: center;
+}
+
+.formupdate{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+}
+
+.formupdate > *{
+    margin: 8px;
+}
+
+.updatetitle{
+    color: brown;
+}
+
+.buttonform{
+    align-self: center;
+    background-color: cadetblue;
+    color: black;
+    border-radius: 10%;
+    height: 20px;
+    width:100px
+}
+
+.buttonform:hover{
+    background-color: brown;
+    color: white;
+}
+
+.buttonformback{
+    text-align: center;
+    background-color: cadetblue;
+    color: black;
+    border-radius: 10%;
+    height: 20px;
+    width:100px;
+    margin: 8px;
+}
+
+.buttonformback:hover{
+    background-color: brown;
+    color: white;
+}
+

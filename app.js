@@ -5,6 +5,7 @@ const main = require('./src/routers/main');
 const list = require('./src/routers/list');
 const detail = require('./src/routers/detail');
 const add = require('./src/routers/add');
+const update = require('./src/routers/update');
 const methodOverride = require('method-override');
 
 const app = express();
@@ -20,6 +21,7 @@ app.use(main);
 app.use(list);
 app.use(detail);
 app.use(add);
+app.use(update);
 
 
 app.listen(port, () => {console.log(`Server running in port ${port}`)});

@@ -16,7 +16,7 @@
 
 <div class = "editbuttons">
     
-    <a href=""><button class = "updatebutton">Update</button></a>
+    <a href="/update/<%=animal.id%>"><button class = "updatebutton">Update</button></a>
 
     <form method = "POST" action="/detail/<%= animal.id %>/delete?_method=DELETE">
         <button type= "submit" class = "deletebutton">Delete</button>

@@ -13,7 +13,7 @@ detail = {
             arrayanimals[i].id = i+1;
         }
 
-        fs.writeFileSync(__dirname+"/../database/data.json", JSON.stringify(arrayanimals));
+        fs.writeFileSync(__dirname + "/../database/data.json", JSON.stringify(arrayanimals));
         
         res.redirect('/list');
 
